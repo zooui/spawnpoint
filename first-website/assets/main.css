@@ -1,0 +1,73 @@
+   @font-face {
+    src: url(cassiaw01-regular.woff) format('woff'),
+    url(cassiaw01-regular.woff2) format('woff2');
+    font-weight: normal; 
+    font-style: normal;
+    font-display: swap;
+   }
+   body {
+    background-color:rgba(237, 159, 197, 0.5);
+   }
+   p {
+    background-color:rgb(209, 85, 151);
+    font-size:20px;
+    padding:10px;
+    margin:30px;
+    border: 5px double darkgreen; 
+    }
+
+    h1 {
+        color: darkgreen;
+        border-top:10px dotted;
+        border-bottom:10px dotted;
+        padding-top:10px;
+        padding-bottom:10px;
+        text-align:center;
+    }
+    strong {
+        color:darkgreen;
+        text-decoration:underline;
+    }
+    /* here lies my patience */
+    img {
+        width:300px;
+        max-width:100%
+    }
+    .special{
+        background-color:cornflowerblue;
+        border:5px inset rgb(135, 168, 228);
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .mono{
+        font-family: sans-serif;
+    }
+
+    /*stylesheet specificity*/
+
+    header {
+        margin: 20px;
+        padding: 10px; 
+        width: 300px;
+        text-align: center;
+
+        background-color: aquamarine;
+    }
+    main {
+        margin: 20px;
+        padding: 10px; 
+        width: 300px;
+        text-align: center;
+
+        background-color: rgb(26, 79, 61);
+    }
+.class {
+    background-color: lightcoral;
+}
+    footer {
+        margin: 20px;
+        padding: 10px; 
+        width: 300px;
+        text-align: center;
+
+        background-color: rgb(26, 79, 61);
+    }
