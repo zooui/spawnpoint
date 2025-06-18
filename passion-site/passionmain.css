@@ -1,12 +1,8 @@
 body {
-  font-family: 'Press Start 2P', monospace;
-  ...
-}
-@font-face {
-  font-family: 'FT88 Italic';
-  src: url('assets/fonts/ft88-italic.ttf') format('ttf');
+  font-family: 'Courier', monospace;
+  
 }
 
 h1 {
-  font-family: 'FT88 Italic';
+  font-family: 'Courier'; 
 }
