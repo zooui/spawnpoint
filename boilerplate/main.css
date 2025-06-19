@@ -1,0 +1,7 @@
+/*applies a rule*/
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}

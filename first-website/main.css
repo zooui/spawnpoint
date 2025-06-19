@@ -1,6 +1,6 @@
 body {
-    font-family: 'Bellota Text', cursive, sans-serif;
-    background-color: #fdf6e3; /* soft cream background */
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f2cfeb; /* soft cream background */
     color: #333; /* dark grey text */
     margin: 2em;
     line-height: 1.6;
@@ -8,7 +8,7 @@ body {
 
 /* Headings */
 h1 {
-    font-size: 2.5em;
+    font-size: 40px;
     color: #4b2e83; /* deep purple */
     margin-bottom: 0.2em;
 }
@@ -39,7 +39,7 @@ p {
 
 /* Links */
 a {
-    color: #0055aa;
+    color: #133a60;
     text-decoration: none;
 }
 
@@ -63,7 +63,5 @@ details {
 /* Images */
 img {
     width: 300px;
-    margin: 1em 0;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    margin: 10px;
 }
