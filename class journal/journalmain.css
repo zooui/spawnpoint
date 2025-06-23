@@ -1,0 +1,42 @@
+ @font-face {
+    font-family: 'FT88School';
+    src: url('../class journal/assets/fonts/ft88-school')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: rgb(17, 35, 36);
+            color: #eae1a6;
+            padding: 2em;
+        }
+
+h1 {
+            color: rgb(225, 165, 217);
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+ .week-entry {
+            border-left: 4px solid rgb(225, 165, 217);
+            padding-left: 1em;
+            margin-bottom: 2em;
+        }
+ .week-entry h2 {
+            margin-top: 0;
+            color: #3e5445;
+        }
+a {
+            color: rgb(225, 165, 217);
+            text-decoration: none;
+        }
+
+a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 2em;
+        }

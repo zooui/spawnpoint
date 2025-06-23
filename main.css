@@ -1,3 +1,53 @@
 body {
-    background-color:rgb(30, 22, 45)
+    background-color:rgb(17, 35, 36)
+}
+@font-face {
+    font-family: 'Ayuthaya'; /*edit font later */
+    src: url('assets/fonts/ayuthaya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FT88School';
+    src: url('assets/fonts/ft88-school.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+h1 {
+    font-family: 'FT88School', sans-serif;
+    font-size: 50px;
+    color:rgb(225, 165, 217);
+
+}
+h3 {
+    font-family: 'CirrusCumulus', sans-serif;
+    font-size: 30px;
+    color: rgb(225, 165, 217);
+}
+ul {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: rgb(225, 165, 217);
+}
+.mono {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: light;
+    background: #3e5445;
+    padding: 1em;
+    border-radius: 5px;
+}
+a {
+    color: rgb(225, 165, 217);         /* your custom link color */
+    text-decoration: none;  /* optional: removes underline */
+}
+
+a:visited {
+    color: rgb(225, 165, 217);         /* visited link color (same as normal if you want it consistent) */
+}
+
+a:hover {
+    color: #eae1a6;         /* color when hovered */
+    text-decoration: underline;  /* optional: adds underline on hover */
 }
