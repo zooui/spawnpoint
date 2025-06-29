@@ -1,0 +1,122 @@
+/*applies a rule*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.test {
+    background-color: lightseagreen;
+    width:100px;
+    height:100px;
+    position: relative;
+
+   /* animation-name: test;
+    animation-duration: 4s;
+    animation-delay: 2s; /* delays start of animation */
+   /* animation-iteration-count: infinite; /* number of times animation plays */
+    /* animation-direction: alternate; */
+  /*  animation-timing-function: cubic-bezier(.06,1.21,.87,-0.06);
+    animation-fill-mode: both; */
+
+    animation: test 4s 2s infinite alternate cubic-bezier(.06,1.21,.87,-0.06) both;
+}
+@keyframes test {
+    0% {
+        background: red;
+        left:0;
+    }
+    100% {
+        background:honeydew;
+        left:200px;
+    }
+}
+.container {
+    background: lightsteelblue;
+    height:100vh;
+    display:flex;
+   justify-content: space-evenly;
+    align-items: center;
+    /* gap: 50px; */
+    position: relative;
+    overflow:hidden;
+}
+.circle {
+    background: honeydew;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    animation: pulse 2s infinite alternate;
+}
+@keyframes pulse {
+    0% {
+        background: honeydew;
+        /* width: 10vw;
+        height: 10vw; */
+        scale:1;
+    }
+    100% {
+        background: lightsalmon;
+        /* width: 15vw;
+        height: 15vw; */
+        scale:1.4;
+    }
+}
+.changer {
+background: honeydew;
+width:10vw;
+height:10vw;
+transition: background 4s, border-radius 4s, rotate 4s;
+}
+.changer:hover {
+    /* animation: change 4s forwards; /*forwards plays it then maintains final keyframe */
+    background: lightsalmon;
+    rotate: 360deg;
+    border-radius: 100%;
+}
+@keyframes change {
+    0% {
+background: honeydew;
+rotate: 0;
+border-radius: 0;
+    }
+    100% {
+background: lightsalmon;
+rotate: 360deg;
+border-radius: 100%;
+    }
+}
+.square {
+background: honeydew;
+width:10vw;
+height:10vw;
+animation: spin 4s infinite linear;
+}
+@keyframes spin {
+    0% {
+rotate: 0;
+    }
+    100% {
+rotate: 360deg;
+    }
+}
+.mover {
+    background: honeydew;
+    width:15vw;
+    height:4vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: move 4s infinite ease-out;
+}
+@keyframes move {
+    0% {
+        left: -15vw;
+    }
+    100% {
+        left: 100vw;
+    }
+}

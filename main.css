@@ -1,5 +1,7 @@
+
 body {
-    background-color:rgb(17, 35, 36)
+ background-image: url("homepagebackground.jpg");
+ background-color:rgb(17, 35, 36)
 }
 @font-face {
     font-family: 'Ayuthaya'; /*edit font later */
@@ -19,17 +21,20 @@ h1 {
     font-family: 'FT88School', sans-serif;
     font-size: 50px;
     color:rgb(225, 165, 217);
+    text-align: center;
 
 }
 h3 {
     font-family: 'CirrusCumulus', sans-serif;
     font-size: 30px;
     color: rgb(225, 165, 217);
+    text-align: center;
 }
 ul {
     font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     color: rgb(225, 165, 217);
+    text-align: center;
 }
 .mono {
     font-family: 'Helvetica', sans-serif;
@@ -37,6 +42,7 @@ ul {
     background: #3e5445;
     padding: 1em;
     border-radius: 5px;
+    text-align: center;
 }
 a {
     color: rgb(225, 165, 217);         /* your custom link color */

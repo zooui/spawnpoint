@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>my laptop wallpaper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'FT88Serif';
+    src: url('../pages/assets/ft88-serif.ttf')
+    format('truetype');
+}
+@font-face {
+    font-family: 'FT88Regular';
+    src: url('../pages/assets/ft88-regular.ttf')
+    format('truetype');
+}
+
+body {
+font-family: 'FT88Serif', serif;
+margin: 0;
+background: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+h1 {
+    color:rgb(135, 240, 56);
+}
+/* Wrapper centers content vertically and horizontally */
+.item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* The box that fits its content */
+.item-box {
+  border: 4px solid #87f038;
+  border-radius: 5px;
+  background: whitesmoke;
+  padding: 30px;
+  max-width: 500px; /* Keeps line length comfortable */
+  text-align: center;
+}
+
+/* Image styling */
+.item-box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* Space below image */
+}
+
+/* Text styling for paragraphs */
+.item-box p {
+    font-family: 'FT88Regular', sans-serif;
+  margin-bottom: 1em;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* heading style for item page */
+.item-box h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+
+}
+a {
+    color: cornflowerblue
+}
+</style>
+</head>
+<body>
+    <main class="item-wrapper">
+        <div class="item-box">
+    <h1>my laptop wallpaper</h1>
+    <p>What the heading says... my nice (Minecraft of course) wallpaper that I see to brighten up the usage of this dang machine. Isn't it a beautiful sight? </p>
+    <img src="assets/mywallpaper.jpg">
+    <a href="../index.html">← back to junk drawer</a>
+</body>
+</html>
