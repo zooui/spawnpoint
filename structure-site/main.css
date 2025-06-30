@@ -19,17 +19,21 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+text-align:left;
 }
 h1 {
-    color:#87f038
+    color:#87f038;
+text-align: center;
 }
 
-/* Drawer wrapper centers it */
+
 .drawer-wrapper {
   text-align: center;
+  justify-content: center;
+align-items: center;
 }
 
-/* The Drawer Box */
+
 .drawer {
   border: 4px solid #87f038 ;
   background: whitesmoke;
@@ -44,7 +48,7 @@ h1 {
   
 }
 
-/* Details styling */
+
 details {
   text-align: left;
 }
