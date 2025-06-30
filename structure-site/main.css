@@ -17,9 +17,9 @@ margin: 0;
 background: whitesmoke;
 display: flex;
 justify-content: center;
-align-items: center;
+/*align-items: center; */
 height: 100vh;
-text-align:left;
+text-align:left; 
 }
 h1 {
     color:#87f038;
@@ -30,7 +30,6 @@ text-align: center;
 .drawer-wrapper {
   text-align: center;
   justify-content: center;
-align-items: center;
 }
 
 
@@ -45,6 +44,7 @@ align-items: center;
 .drawer h1 {
   margin: 0 0 20px 0;
   font-size: 1.8rem;
+  text-align:center;
   
 }
 
