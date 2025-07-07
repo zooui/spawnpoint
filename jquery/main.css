@@ -1,0 +1,61 @@
+/*applies a rule*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: cornflowerblue;
+    transition: background .3s;
+}
+body.dark {
+    background: navy;
+}
+img {
+    max-width: 100%;
+}
+.buttons {
+    position:fixed;
+    top:10px;
+    left:10px;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.box {
+    background: rgb(210, 243, 210);
+    width: 100px;
+    height: 100px;
+    transition: background .3s;
+
+    animation: spin 5s infinite linear;
+    animation-play-state: paused;
+}
+.box.dark {
+    background: darkolivegreen;
+}
+.box.spin {
+    animation-play-state:running;
+}
+
+@keyframes spin {
+    0% {
+       rotate: 0; 
+    }
+    100% {
+        rotate:360deg;
+    }
+       
+}
+.sugie {
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    width:200px;
+    display:none;
+}
+.sugie.reveal {
+    display:block;
+}

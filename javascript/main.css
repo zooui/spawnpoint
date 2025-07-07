@@ -1,0 +1,48 @@
+/*applies a rule*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background: seashell;
+    transition:background .5s;
+}
+.dark {
+    background: rgb(174, 170, 167);
+}
+img {
+    max-width: 100%;
+}
+.menu {
+    background: lightblue;
+    position:fixed;
+    right:-300px;
+    top:0;
+
+    height:100vh;
+    width:300px;
+
+    text-align:center;
+    padding:20px;
+    
+    font-size:130%;
+transition: right .5s, background .5s;
+
+}
+.active {
+    right: 0;
+}
+.glow {
+    background: lightgoldenrodyellow;
+}
+.gear {
+    background: lightblue;
+    width:100px;
+    height:100px;
+    position: fixed;
+    bottom: 30px;
+    left:30px;
+    transition:rotate .5s, background .5s;
+}
+.spin {
+    rotate: 180deg;
+}

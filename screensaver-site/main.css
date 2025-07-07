@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'FT88Serif';
+    src: url('ft88-serif.ttf')
+    format('truetype');
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: hsl(0, 0%, 0%);
+}
+
+h1#toggle-text {
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color:  rgb(101, 244, 184);
+  font-family: 'FT88Serif', serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  pointer-events: none;
+}
+
+canvas {
+  display: block;
+}
+
+.btn {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgb(101, 244, 184);
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: honeydew;
+  opacity: 1;
+}
+
