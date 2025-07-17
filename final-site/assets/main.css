@@ -1,0 +1,86 @@
+/* Fullscreen background */
+@font-face {
+  font-family: 'MysticHandwritten';
+  src: url('mystichandwritten.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FT88-Italic';
+  src: url('ft88-italic.otf') format('truetype');
+}
+body, html {
+font-family: 'MysticHandwritten', sans-serif;
+background-image: url("deskbackground.jpg");
+background-color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  color: #000;
+}
+
+/* .background {
+  background: url('homebackground.jpg') no-repeat center center/cover;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+} */
+
+/* Center GIF with white box */
+.gif-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.gif-box {
+    /* background: #fff; */
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA4ElEQVRYR+1ZSRKAIAzT/z/a5YCHKlNCKJqxHJWUmDZYcV3IsR3jDLEeAwmF4qDgT0TQBUsMFHcRLcASqCjUej0ap0s0utZaU29L46bo54kijn1jLu36WaTp1EcRHV6jSdS88fRSH5XCUXHT9aySuq633ZHtglhlUHyVjwzR1m4GVYadr1uj7JPPwuc+yiqtX6Po5yurmIfXV9R7wrfvp+vZDOjWqExTIkM0uyfSTVUzkXHD4f/ZR3t7BA83fB/1FqzVhIdziUafxXvbYe2fgd4Zfq9tvRT2pt7iaNfPIroDwxlgKg9cB6sAAAAASUVORK5CYII=') 14 /  14px / 0 round; 
+    border-width:  14px;
+    border-style:  solid; 
+    background: #ffffff8d;
+    padding: .2em;
+    margin: 30px auto;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.gif-container img {
+/* background: #fff; */
+  max-width: 600px;
+  height: auto;
+  /* border-radius: 8px; */
+  display: block;
+
+}
+
+
+/* Bottom navigation */
+.site-nav {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.site-nav a {
+ font-family: 'MysticHandwritten', sans-serif;
+  display: inline-block;
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  position: relative;
+}
+
+.site-nav a img {
+  max-height: 40px;
+}
+a:hover {
+color:rgb(164, 210, 239);
+text-decoration: underline;
+}
+
+/* Transition for hover swap will be handled in JS */

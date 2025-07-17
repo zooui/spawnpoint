@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'MysticHandwritten';
+  src: url('assets/mystichandwritten.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FT88-Italic';
+  src: url('assets/ft88-italic.otf') format('truetype');
+}
+body {
+  background: url('assets/underbridge.jpg') center center/cover no-repeat;
+  /* background-color: #f5f5f5; */
+  font-family: 'MysticHandwritten', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+
+.back-button {
+  margin: 2rem auto 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.4s;
+}
+
+
+.sketchbook-container {
+  position: relative;
+  width: 60%;
+  max-width: 600px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+   border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA4ElEQVRYR+1ZSRKAIAzT/z/a5YCHKlNCKJqxHJWUmDZYcV3IsR3jDLEeAwmF4qDgT0TQBUsMFHcRLcASqCjUej0ap0s0utZaU29L46bo54kijn1jLu36WaTp1EcRHV6jSdS88fRSH5XCUXHT9aySuq633ZHtglhlUHyVjwzR1m4GVYadr1uj7JPPwuc+yiqtX6Po5yurmIfXV9R7wrfvp+vZDOjWqExTIkM0uyfSTVUzkXHD4f/ZR3t7BA83fB/1FqzVhIdziUafxXvbYe2fgd4Zfq9tvRT2pt7iaNfPIroDwxlgKg9cB6sAAAAASUVORK5CYII=') 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid; 
+}
+
+.sketchbook-page {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.sketchbook-page img {
+  max-width: 60%;
+  height: auto;
+  object-fit: contain;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 16px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: none;
+
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow:hover {
+  background: #fff;
+}
+
+.drawing1 {
+  max-width: 30%;
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>my sketchbook</title>
+  <link rel="stylesheet" href="../sketchbook.css" />
+</head>
+<body>
+    <h3>my sketchbook</h3>
+ 
+<div class="broider"></div>
+
+  <div class="sketchbook-container">
+    <div class="sketchbook-page">
+      <img id="sketchImage" class="drawing1" src="../assets/sketch3.png" alt="Sketchbook drawing"/>
+
+    </div>
+
+    <button class="arrow left" id="previousPage">⟵</button>
+    <button class="arrow right" id="nextPage">⟶</button>
+  </div>
+
+  <script>
+    const pages = [
+    '../assets/sketch3.png',
+    '../assets/sketch1.png',
+      '../assets/grassportal.png',
+      '../assets/sugarnap.png',
+      '../assets/sketch2.png',
+      '../assets/sketch5.png',
+      '../assets/dumbshark.png',
+      '../assets/divinefeminine.png',
+      '../assets/sketch4.png',
+      '../assets/sketch6.png',
+      '../assets/sketch7.png',
+      '../assets/sketch8.png',
+      '../assets/sketch9.png',
+      '../assets/sketch10.png'
+
+
+
+    ];
+
+    let currentPage = 0;
+    const sketchImage = document.getElementById('sketchImage');
+
+    document.getElementById('previousPage').onclick = () => {
+      currentPage = (currentPage - 1 + pages.length) % pages.length;
+      sketchImage.src = pages[currentPage];
+    };
+
+    document.getElementById('nextPage').onclick = () => {
+      currentPage = (currentPage + 1) % pages.length;
+      sketchImage.src = pages[currentPage];
+    };
+  </script>
+   <div class="back-button">
+    <a href="../index.html">← back to desk</a>
+  </div>
+</body>
+</html>

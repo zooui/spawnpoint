@@ -1,32 +1,32 @@
 body {
     font-family: 'Helvetica', sans-serif;
-    background-color: #f2cfeb; /* soft cream background */
-    color: #333; /* dark grey text */
+    background-color: #f2cfeb; 
+    color: #333; 
     margin: 2em;
     line-height: 1.6;
 }
 
-/* Headings */
+
 h1 {
     font-size: 40px;
-    color: #4b2e83; /* deep purple */
+    color: #4b2e83; 
     margin-bottom: 0.2em;
 }
 
 h2, h3, h4 {
-    color: #7b4ca0; /* lighter purple */
+    color: #7b4ca0; 
     margin-top: 0;
 }
 
-/* Paragraphs */
+
 p {
     max-width: 700px;
 }
 
-/* Special classes */
+
 .special {
     font-size: 1.2em;
-    color: #c95f5f; /* reddish highlight */
+    color: #c95f5f; 
     font-weight: bold;
 }
 
@@ -37,7 +37,7 @@ p {
     border-radius: 5px;
 }
 
-/* Links */
+
 a {
     color: #133a60;
     text-decoration: none;
@@ -47,7 +47,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Lists */
+
 ul, ol {
     margin-left: 1.5em;
 }
@@ -60,7 +60,7 @@ details {
     max-width: 400px;
 }
 
-/* Images */
+
 img {
     width: 300px;
     margin: 10px;
