@@ -22,36 +22,36 @@
 
   <script>
     const pages = [
-    '../assets/sketch3.png',
-    '../assets/sketch1.png',
-      '../assets/grassportal.png',
-      '../assets/sugarnap.png',
-      '../assets/sketch2.png',
-      '../assets/sketch5.png',
-      '../assets/dumbshark.png',
-      '../assets/divinefeminine.png',
-      '../assets/sketch4.png',
-      '../assets/sketch6.png',
-      '../assets/sketch7.png',
-      '../assets/sketch8.png',
-      '../assets/sketch9.png',
-      '../assets/sketch10.png'
+  { src: '../assets/sketch3.png', class: 'drawing1' },
+  { src: '../assets/sketch1.png', class: 'drawing2' },
+  { src: '../assets/grassportal.png', class: 'drawing3' },
+  { src: '../assets/sugarnap.png', class: 'drawing4' },
+  { src: '../assets/sketch2.png', class: 'drawing5' },
+  { src: '../assets/sketch5.png', class: 'drawing6' },
+  { src: '../assets/dumbshark.png', class: 'drawing7' },
+  { src: '../assets/divinefeminine.png', class: 'drawing8' },
+  { src: '../assets/sketch4.png', class: 'drawing9' },
+  { src: '../assets/sketch6.png', class: 'drawing10' },
+  { src: '../assets/sketch7.png', class: 'drawing11' },
+  { src: '../assets/sketch8.png', class: 'drawing12' },
+  { src: '../assets/sketch9.png', class: 'drawing13' },
+  { src: '../assets/sketch10.png', class: 'drawing14' },
+];
 
-
-
-    ];
 
     let currentPage = 0;
     const sketchImage = document.getElementById('sketchImage');
 
     document.getElementById('previousPage').onclick = () => {
       currentPage = (currentPage - 1 + pages.length) % pages.length;
-      sketchImage.src = pages[currentPage];
+      sketchImage.src = pages[currentPage].src;
+      sketchImage.className = pages[currentPage].class;
     };
 
     document.getElementById('nextPage').onclick = () => {
       currentPage = (currentPage + 1) % pages.length;
-      sketchImage.src = pages[currentPage];
+      sketchImage.src = pages[currentPage].src;
+      sketchImage.className = pages[currentPage].class;
     };
   </script>
    <div class="back-button">

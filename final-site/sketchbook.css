@@ -43,8 +43,8 @@ h3 {
 
 .sketchbook-container {
   position: relative;
-  width: 60%;
-  max-width: 600px;
+  width: 80%;
+  max-width: 800px;
   margin: 60px auto;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ h3 {
 
 .sketchbook-page {
   position: relative;
-  width: 100%;
+  max-width: 100%;
   aspect-ratio: 4/3;
   background: #fff;
   border-radius: 12px;
@@ -102,6 +102,22 @@ h3 {
 
 .drawing1 {
   max-width: 30%;
+}
+.drawing2 {
+  max-width: 60%;
+}
+.drawing3 {
+  max-width: 70%
+}
+.drawing4 {
+max-width: 40%;
+}
+.drawing9 {
+  width:120% !important;
+  max-width: none;
+}
+.drawing10 {
+  max-width: 300px;
 }
 
 

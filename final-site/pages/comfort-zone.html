@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>comfort zone</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #000; /* whatever background */
+    }
+
+    .screensaver {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .pixel {
+      position: absolute;
+      top: -50px; /* Start above the screen */
+      width: 32px; /* whatever size */
+      height: auto;
+      animation-name: fall;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes fall {
+      0% {
+        transform: translateY(-50px);
+      }
+      100% {
+        transform: translateY(110vh);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="screensaver">
+    <img src="../assets/pixel_1.png" class="pixel" style="left: 10%; animation-duration: 6s; animation-delay: 1.5s;">
+    <img src="../assets/pixel_2.png" class="pixel" style="left: 30%; animation-duration: 8s; animation-delay: 2s;">
+    <img src="../assets/pixel_3.png" class="pixel" style="left: 50%; animation-duration: 10s; animation-delay: 4s;">
+    <img src="../assets/pixel_4.png" class="pixel" style="left: 70%; animation-duration: 12s; animation-delay: 0s;">
+    <img src="../assets/pixel_5.png" class="pixel" style="left: 90%; animation-duration: 7s; animation-delay: 3s;">
+    <img src="../assets/pixel_6.png" class="pixel" style="left: 60%; animation-duration: 8s; animation-delay: 1s;">
+    <img src="../assets/pixel_7.png" class="pixel" style="left: 20%; animation-duration: 6s; animation-delay: 2s;">
+    <img src="../assets/pixel_8.png" class="pixel" style="left: 40%; animation-duration: 9s; animation-delay: 0s;">
+    <img src="../assets/pixel_9.png" class="pixel" style="left: 15%; animation-duration: 9.5s; animation-delay: 4s;">
+    <img src="../assets/pixel_10.png" class="pixel" style="left: 35%; animation-duration: 6s; animation-delay: 3s;">
+    <img src="../assets/pixel_11.png" class="pixel" style="left: 95%; animation-duration: 11s; animation-delay: 0.5s;">
+    <img src="../assets/pixel_2.png" class="pixel" style="left: 55%; animation-duration: 5s; animation-delay: 1s;">
+    <img src="../assets/pixel_9.png" class="pixel" style="left: 75%; animation-duration: 8s; animation-delay: 1.5s;">
+     <img src="../assets/pixel_11.png" class="pixel" style="left: 25%; animation-duration: 7s; animation-delay: 2s;">
+     <img src="../assets/pixel_3.png" class="pixel" style="left: 5%; animation-duration: 8s; animation-delay: 0s;">
+     <img src="../assets/pixel_5.png" class="pixel" style="left: 65%; animation-duration: 5s; animation-delay: 2s;">
+      <img src="../assets/pixel_6.png" class="pixel" style="left: 60%; animation-duration: 6.5s; animation-delay: 4s;">
+    <!-- Add as many as you like! -->
+  </div>
+</body>
+</html>
